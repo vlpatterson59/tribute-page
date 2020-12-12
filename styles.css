@@ -52,6 +52,23 @@ h1 {
     margin-bottom: 10px;
 }
 
+#tribute-info {
+    color: var(--color-secondary-2-1);
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+#tribute-info h3 {
+    color: var(--color-secondary-1-3);
+    background-color: var(--color-secondary-1-1);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 a:link {
     color: var(--color-primary-1);
 }
@@ -67,6 +84,7 @@ a:hover {
 
 ul {
     list-style: none;
+    font-size: 1.2rem;
 }
 
 ul li::before {
@@ -74,9 +92,17 @@ ul li::before {
     background-image: url("images/52666-200.png");
     background-size: contain;
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.5em;
     position: relative;
     top: 0.1rem;
-    margin-right: 0.2rem;
+    margin-right: 0.7rem;
+    background-color: var(--color-secondary-1-1);
+    border-radius: 50%;
+}
+
+ul li {
+    list-style-position: outside;
+    margin-bottom: 15px;
+    vertical-align: top;
 }
