@@ -33,6 +33,10 @@ h1 {
     font-family: 'Molle', cursive;
 }
 
+img {
+    margin-top: 15px;
+}
+
 #banner {
     background-color: var(--color-primary-2);
     color: var(--color-primary-4);
