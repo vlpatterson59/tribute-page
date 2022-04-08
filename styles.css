@@ -16,6 +16,12 @@
     --color-secondary-2-2: #F2FC6B;
     --color-secondary-2-3: #DEED1E;
     --color-secondary-2-4: #ADBA0A;
+
+    --cooler-primary-0: #386641;
+    --cooler-primary-1: #6a994e;
+    --cooler-primary-2: #a7c957;
+    --cooler-primary-3: #f2e8cf;
+    --cooler-primary-4: #bc4749;
 }
 
 * {
@@ -23,8 +29,8 @@
 }
 
 body {
-    background-color: #202020;
-    color: #5F5F5F;
+    background-color: var(--cooler-primary-3);
+    color: var(--cooler-primary-0);
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -38,8 +44,8 @@ img {
 }
 
 #banner {
-    background-color: var(--color-primary-2);
-    color: var(--color-primary-4);
+    background-color: var(--cooler-primary-4);
+    color: var(--cooler-primary-3);
     line-height: 2.5em;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -57,7 +63,7 @@ img {
 }
 
 #tribute-info {
-    color: var(--color-secondary-2-1);
+    color: var(--cooler-primary-4);
     text-align: left;
     width: 60%;
     margin: auto;
@@ -65,8 +71,8 @@ img {
 }
 
 #tribute-info h3 {
-    color: var(--color-secondary-1-3);
-    background-color: var(--color-secondary-1-1);
+    color: var(--cooler-primary-3);
+    background-color: var(--cooler-primary-0);
     text-align: center;
     padding: 10px 0;
     margin-top: 15px;
